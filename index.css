@@ -1,0 +1,104 @@
+body{
+    background-color: #333399;
+}
+
+.MainBox{
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    margin: 40px 80px;
+}
+
+.FirstRow{
+    
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    height: 350px;
+}
+
+.FirstRow:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.FirstColumn{
+    float: left;
+    width: 48%;
+    padding: 5px;
+    height: 335px;
+    margin-left: 10px;
+}
+
+.FirstColumn:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.FirstInSecond{
+    float: left;
+    width: 48%;
+    height: 345px;
+    margin-top: -4px !important;
+}
+  
+.SecondRow{
+    
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    height: 350px;
+}
+
+.SecondRow:after{
+    content: "";
+    display: table;
+    clear: both;   
+}
+
+.SecondColumn{
+    float: left;
+    width: 23%;
+    padding: 5px;
+    height: 335px;
+    margin-left: 10px;
+}
+
+
+.ThirdRow{
+    margin: 10px 5px;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    height: 350px;
+}
+
+.ThirdRow:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ThirdColumn{
+    float: left;
+    width: 48%;
+    padding: 5px;
+    height: 335px;
+    margin-left: 10px;
+}
+
+.ThirdColumn:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ThirdInSecond{
+    float: left;
+    width: 48%;
+    height: 345px;
+    margin-top: -4px !important;
+}
+
